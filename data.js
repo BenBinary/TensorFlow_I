@@ -17,6 +17,8 @@
 
 //import * as tf from './node_modules/@tensorflow/tfjs';
 
+const Image = require('images');
+
 const IMAGE_SIZE = 784;
 const NUM_CLASSES = 10;
 const NUM_DATASET_ELEMENTS = 65000;
@@ -167,4 +169,9 @@ class MnistData {
 
     return {xs, labels};
   }
+}
+
+
+module.exports = {
+  MnistData: MnistData
 }

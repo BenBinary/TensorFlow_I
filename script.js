@@ -1,4 +1,6 @@
-import {MnistData} from '../data.js/index.js';
+const {MnistData} = require('./data.js');
+
+//import {MnistData} from '../data.js/index.js';
 
 async function showExamples(data) {
   // Create a container in the visor
@@ -48,7 +50,9 @@ async function run() {
 
 }
 
-document.addEventListener('DOMContentLoaded', run);
+module.exports = run();
+
+//document.addEventListener('DOMContentLoaded', run);
 
 function getModel() {
     
