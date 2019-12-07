@@ -17,7 +17,7 @@
 
 //import * as tf from './node_modules/@tensorflow/tfjs';
 
-const Image = require('images');
+//const Image = require('images');
 
 const IMAGE_SIZE = 784;
 const NUM_CLASSES = 10;
@@ -27,6 +27,7 @@ const TRAIN_TEST_RATIO = 7 / 8;
 
 const NUM_TRAIN_ELEMENTS = Math.floor(TRAIN_TEST_RATIO * NUM_DATASET_ELEMENTS);
 const NUM_TEST_ELEMENTS = NUM_DATASET_ELEMENTS - NUM_TRAIN_ELEMENTS;
+//var document = document.implementation.createDocumentType( 'html', '', '');
 
 
 console.log(NUM_TEST_ELEMENTS);
@@ -171,7 +172,8 @@ class MnistData {
   }
 }
 
-
+/*
 module.exports = {
   MnistData: MnistData
 }
+*/

@@ -52,6 +52,7 @@ export class MnistData {
     const img = new Image();
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d');
+
     const imgRequest = new Promise((resolve, reject) => {
       img.crossOrigin = '';
       img.onload = () => {
@@ -168,3 +169,19 @@ export class MnistData {
     return {xs, labels};
   }
 }
+
+
+document.addEventListener('DOMContentLoaded', run);
+
+//const {MnistData} = require('./data.js');
+
+//headline = "blub";
+
+
+    async function run() {  
+
+            // Laden der Datensätze
+            //const data = new MnistData();
+
+            //console.log(data);
+    }
