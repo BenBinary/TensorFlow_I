@@ -12,7 +12,7 @@
   "dependencies": {
     "@tensorflow/tfjs": "^1.4.0",
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "image-js": "^0.21.8",
     "images": "^3.0.2",
     "node-gif": "^1.0.5",
